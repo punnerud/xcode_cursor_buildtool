@@ -1,5 +1,7 @@
 # Xcode Cursor Build Tool
 
+![Build Tool Demo](https://raw.githubusercontent.com/punnerud/xcode_cursor_buildtool/main/assets/build.png)
+
 A specialized build script designed to integrate with Cursor AI for Xcode project builds, providing intelligent error reporting through the Cursor terminal.
 
 ## Overview
