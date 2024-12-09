@@ -7,7 +7,8 @@ if ! [ -d "/Applications/Xcode.app" ]; then
 fi
 
 # Set Xcode as the active developer directory
-sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+# (Most ly working without this, then it don't require password. Uncomment if needed)
+#sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 
 # Automatically detect the scheme
 SCHEME=$(xcodebuild -list | sed -n '/Schemes:/,/Targets:/p' | sed -n '2p' | xargs)
